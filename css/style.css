@@ -1,0 +1,38 @@
+header {
+  background-color: mistyrose;
+  text-align: center;
+}
+
+
+h1 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+body {
+    background-color: mistyrose;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+}
