@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Fun Cat Page</title>
-        <!-- This shows up as the tab name in the browser -->
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <!-- Header section with the main page title and intro text -->
-        <header>
-            <h1>Welcome to the Fun Cat Page</h1>
-            <p>Learn some fun facts about cats!</p>
-        </header>
+<head>
+    <title>Fun Cat Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header section: contains the main title and intro text for the page -->
+    <header>
+        <h1>Welcome to the Fun Cat Page</h1>
+        <p>Learn some fun facts about cats!</p>
+    </header>
 
-        <!-- Main content area of the page -->
-        <main>
-           <!-- Section listing favorite cat breeds -->
-           <section>
-               <h2>My Favorite Cat Breeds</h2>
-               <p>Some of my favorite cats include:</p>
-               <ul>
-                   <li>Persian Cats</li>
-                   <li>Maine Coon Cats</li>
-                   <li>Siamese Cats</li>
-               </ul>
-           </section>
+    <!-- Main content area -->
+    <main>
+        <!-- Flexbox wrapper: arranges the two sections side by side on larger screens -->
+        <div id="sections-wrapper">
+            <!-- Favorite Breeds Section -->
+            <section id="favorite-breeds">
+                <h2>My Favorite Cat Breeds</h2>
+                <p class="subheader">Some of my favorite cats include:</p>
+                <ul>
+                    <li>Persian Cats</li>
+                    <li>Maine Coon Cats</li>
+                    <li>Siamese Cats</li>
+                </ul>
+            </section>
 
-           <!-- Section about activities cats like -->
-           <section>
-               <h2>Cat Activities</h2>
-               <p>Cats love to engage in various activities to keep themselves entertained. Some popular cat activities include:</p>
-               <ol>
-                   <li>Chasing toys</li>
-                   <li>Sleeping</li>
-                   <li>Climbing cat trees</li>
-               </ol>
+            <!-- Cat Activities Section -->
+            <section id="cat-activities">
+                <h2>Cat Activities</h2>
+                <p>Cats love to engage in various activities to keep themselves entertained. Some popular cat activities include:</p>
+                <ol>
+                    <li>Chasing toys</li>
+                    <li>Sleeping</li>
+                    <li>Climbing cat trees</li>
+                </ol>
 
-               <!-- Image showing a cute cat -->
-               <img
-                    src="images/CuteCat2.png"
-                    alt="A cute cat" 
-                    width="50%">
+                <!-- Image of a cute cat -->
+                <img src="images/CuteCat2.png" alt="A cute cat">
+            </section>
+        </div>
+    </main>
 
-           </section>
-        </main>
-
-        <!-- Footer section with link to the second page -->
-        <footer>
-            <p>Learn More About Cats
-                <a href="page2.html">Read more on Page 2</a>
-            </p>
-        </footer>
-
-    </body>
+    <!-- Footer section: navigation to the next page with more cat content -->
+    <footer>
+        <p>Learn More About Cats!</p>
+        <p class="button">
+            <a href="page2.html">Read more on Page 2</a>
+        </p>
+    </footer>
+</body>
 </html>
 

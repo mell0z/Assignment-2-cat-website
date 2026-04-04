@@ -1,21 +1,24 @@
+/* Header */
 header {
   background-color: mistyrose;
   text-align: center;
 }
 
-
+/* Main title */
 h1 {
     color: black;
     font-size: 30px;
     text-align: center;
 }
 
+/* Section titles */
 h2 {
     color: black;
     font-size: 24px;
     text-align: center;
 }
 
+/* Body */
 body {
     background-color: mistyrose;
     font-family: Arial, sans-serif;
@@ -24,15 +27,77 @@ body {
     padding: 0;
 }
 
+/* Paragraphs */
 p {
     color: black;
     font-size: 16px;
     text-align: center;
 }
 
+/* Images */
 img {
     width: 50%;
     border-radius: 8px;
     display: block;
     margin: auto;
+}
+
+/* Subheader text */
+.subheader {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+/* Button */
+.button {
+    background-color: mistyrose;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Button hover */
+.button:hover {
+    background-color: mistyrose;
+}
+
+/* Favorite Breeds section */
+#favorite-breeds {
+    background-color: mistyrose;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Cat Activities section */
+#cat-activities {
+    background-color: mistyrose;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Interesting Facts section */
+#interesting-facts {
+    background-color: mistyrose;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Cat Care Tips section */
+#care-tips {
+    background-color: mistyrose;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Flexbox container for sections */
+#sections-wrapper {
+    background-color: mistyrose;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
