@@ -1,28 +1,29 @@
 /* Header */
-header {
+/* header {
   background-color: mistyrose;
   text-align: center;
-}
+} */
+
 
 /* Main title */
 h1 {
     color: black;
     font-size: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* Section titles */
 h2 {
     color: black;
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* Body */
 body {
     background-color: mistyrose;
     font-family: Arial, sans-serif;
-    text-align: center;
+    /* text-align: center; */
     margin: 0;
     padding: 0;
 }
@@ -31,22 +32,22 @@ body {
 p {
     color: black;
     font-size: 16px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* Images */
 img {
-    width: 50%;
+    /* width: 50%; */
     border-radius: 8px;
-    display: block;
-    margin: auto;
+    /* display: block; */
+    /* margin: auto; */
 }
 
 /* Subheader text */
 .subheader {
     color: black;
     font-size: 18px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: auto;
 }
 
@@ -64,28 +65,10 @@ img {
     background-color: mistyrose;
 }
 
-/* Favorite Breeds section */
-#favorite-breeds {
-    background-color: mistyrose;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Cat Activities section */
-#cat-activities {
-    background-color: mistyrose;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Interesting Facts section */
-#interesting-facts {
-    background-color: mistyrose;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/* Cat Care Tips section */
+/* Sections */
+#favorite-breeds,
+#cat-activities,
+#interesting-facts,
 #care-tips {
     background-color: mistyrose;
     padding: 10px;
@@ -93,7 +76,7 @@ img {
 }
 
 /* Flexbox container for sections */
-#sections-wrapper {
+/* #sections-wrapper {
     background-color: mistyrose;
     display: flex;
     flex-direction: row;
@@ -103,20 +86,20 @@ img {
 }
 
 /* Media queries for responsive design */
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     body {
         font-size: 16px;
     }
 
 /* This will stack sections vertically instead of side by side */
-#sections-wrapper {
+/*#sections-wrapper {
     flex-direction: column;
     align-items: center;
     gap: 8px;
 }
 
 /* This will make the images smaller if needed */
-img {
+/*img {
     width: 100%;
     height: auto;
     }
