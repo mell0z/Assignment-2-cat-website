@@ -1,29 +1,7 @@
-/* Header */
-/* header {
-  background-color: mistyrose;
-  text-align: center;
-} */
-
-
-h1 {
-    font-family: 'poppins', sans-serif;
-    color: black;
-    font-size: 32px;
-    /* text-align: center; */
-}
-
-h2 {
-    font-family: 'poppins', sans-serif;
-    color: black;
-    font-size: 24px;
-    /* text-align: center; */
-}
-
-/* Body */
+/* Fonts & Body */
 body {
     background-color: mistyrose;
-    font-family: 'poppins', sans-serif;
-    /* text-align: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -31,81 +9,69 @@ body {
 /* Paragraphs */
 p {
     color: black;
+    text-align: center;
     line-height: 1.5;
-    /* text-align: center; */
 }
 
-/* Images */
-img {
-    /* width: 50%; */
-    border-radius: 8px;
-    border: 2px solid black;
-    /* display: block; */
-    /* margin: auto; */
+/* Headings */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
-/* Subheader text */
-.subheader {
-    color: black;
-    font-size: 18px;
-    /* text-align: center; */
-    margin-bottom: auto;
-}
-
-/* Button */
-a.btn-primary{
-    background-color: pink;
-    color: black;
-    border: 1px solid black;
-    font-family: 'poppins', sans-serif;
-    font-weight: bold;
-}
-
-/* Button hover */
-a.btn-primary:hover {
-    background-color: mistyrose;
-    color: black
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
 }
 
 /* Sections */
-#favorite-breeds,
-#cat-activities,
-#interesting-facts,
-#care-tips {
-    background-color: mistyrose;
+#why-cats, #cat-behavior, #fun-facts, #care-tips {
+    background-color: pink;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
     margin-bottom: 20px;
 }
 
-/* Flexbox container for sections */
-/* #sections-wrapper {
-    background-color: mistyrose;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+/* Images */
+.cat-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid black;
 }
 
-/* Media queries for responsive design */
-/*@media (max-width: 600px) {
-    body {
-        font-size: 16px;
+/* Buttons */
+a.btn-primary {
+    background-color: pink;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+a.btn-primary:hover {
+    background-color: mistyrose;
+    color: black;
+}
+
+/* Lists */
+ul {
+    text-align: center;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #why-cats, #cat-behavior, #fun-facts, #care-tips {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-/* This will stack sections vertically instead of side by side */
-/*#sections-wrapper {
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-}
-
-/* This will make the images smaller if needed */
-/*img {
-    width: 100%;
-    height: auto;
+    .cat-image {
+        max-width: 100%;
     }
 }
 

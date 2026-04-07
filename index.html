@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun Cat Page</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Link to external CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <div class="container mt-4">
-    <!-- Header section: contains the main title and intro text for the page -->
-    <header class="text-center mb-4">
-        <h1>Welcome to the Fun Cat Page</h1>
-        <p>Learn some fun facts about cats!</p>
-    </header>
 
-    <!-- Main content area -->
-    <main>
+        <!-- Header -->
+        <header class="text-center mb-4">
+            <h1>Fun Cat Page</h1>
+            <p>Learn all about cats and why they are such amazing pets!</p>
+        </header>
+
+        <!-- Main content -->
+        <main role="main">
             <div class="row">
-                <!-- Favorite Breeds Section -->
-                <section id="favorite-breeds" class="col-md-6">
-                    <h2>My Favorite Cat Breeds</h2>
+
+                <!-- Why Cats Make Great Pets -->
+                <section id="why-cats" class="col-md-6 mb-4 text-center">
+                    <h2>Why Cats Make Great Pets</h2>
+                    <p>Cats are independent, playful, and loving companions. Here’s why people adore them:</p>
                     <ul>
-                        <li>Persian Cats</li>
-                        <li>Maine Coon Cats</li>
-                        <li>Siamese Cats</li>
+                        <li>They are independent but enjoy affection.</li>
+                        <li>Low-maintenance compared to other pets.</li>
+                        <li>Curious, playful, and endlessly entertaining.</li>
                     </ul>
                 </section>
 
-
-                <!-- Cat Activities Section -->
-                <section id="cat-activities" class="col-md-6 mb-4">
-                    <h2>Cat Activities</h2>
-                    <ol>
-                        <li>Chasing toys</li>
-                        <li>Sleeping</li>
-                        <li>Climbing cat trees</li>
-                    </ol>
-
-
-                    <!-- Image of a cute cat -->
-                    <img src="images/CuteCat2.png"
-                        alt="A cute orange cat outside among flowers and leaves with doodles around it"
-                        class="img-fluid">
+                <!-- Cat Behavior & Traits -->
+                <section id="cat-behavior" class="col-md-6 mb-4 text-center">
+                    <h2>Cat Behavior & Traits</h2>
+                    <p>Cats have fascinating behaviors and unique personalities:</p>
+                    <ul>
+                        <li>Purring when happy or relaxed.</li>
+                        <li>Sleeping for long stretches throughout the day.</li>
+                        <li>Exploring and being naturally curious.</li>
+                    </ul>
                 </section>
+
+            </div>
+
+            <!-- Cat Image Row -->
+            <div class="row mb-4 justify-content-center">
+                <div class="col-md-6 text-center">
+                    <img src="images/CuteCat2.png" 
+                         alt="A cute orange cat outside among flowers and leaves with doodles around it" 
+                         class="img-fluid cat-image">
+                </div>
             </div>
         </main>
 
-        <!-- Footer section: navigation to the next page with more cat content -->
+        <!-- Footer -->
         <footer class="mt-5 text-center">
-            <p>Learn More About Cats!</p>
-            <a href="page2.html" class="btn btn-primary">Learn more fun cat facts on Page 2</a>
+            <p>Want to learn more?</p>
+            <a href="page2.html" class="btn btn-primary" aria-label="Go to More Cat Facts">Go to More Cat Facts</a> 
         </footer>
+
     </div>
 </body>
 </html>
-
