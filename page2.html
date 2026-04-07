@@ -8,19 +8,21 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
+        <div class="container mt-4">
         <!-- Header section: introduces the page with title and short description -->
-        <header>
+        <header class="text-center mb-4">
             <h1>More Fun Facts About Cats</h1>
             <p>Learn even more!</p>
         </header>
 
         <!-- Main content area -->
         <main>
-           <!-- Interesting Facts Section -->
-           <section id="interesting-facts">
-               <h2>Interesting Cat Facts</h2>
-               <p>Cats are amazingly cute creatures with lots of unique behaviors.</p>
-               <p>Here are some facts you might not know:</p>
+            <div class="row">
+               <!-- Interesting Facts Section -->
+               <section id="interesting-facts" class="col-md-6 mb-4">
+                   <h2>Interesting Cat Facts</h2>
+                   <p>Cats are amazingly cute creatures with lots of unique behaviors.</p>
+                   <p>Here are some facts you might not know:</p>
                <ul>
                    <li>Persian Cats have long, luxurious fur that requires regular grooming.</li>
                    <li>Maine Coon Cats are one of the largest domesticated cat breeds.</li>
@@ -29,7 +31,7 @@
            </section>
 
            <!-- Cat Care Tips Section -->
-           <section id="care-tips">
+           <section id="care-tips" class="col-md-6 mb-4">
                <h2>Cat Care Tips</h2>
                <p>Not all cats are the same, and their care can vary greatly depending on their breed and personality. But here are some general tips for taking care of your feline friend:</p>
                <ol>
@@ -37,25 +39,21 @@
                    <li>Ensure they have access to fresh water at all times.</li>
                    <li>Regularly groom your cat to keep their coat clean and free of mats.</li>
                </ol>
+
                <!-- Image of a cat yawning -->
                <img 
                    src="images/CuteCat.png" 
                    alt="Orange cat yawning while lying on a sofa" 
-                   width="500"
-                   height="300">
-
+                   class="img-fluid">
            </section>
         </main>
 
         <!-- Footer section: navigation back to the main page -->
-        <footer>
-            <nav>
-                <p class="button">
-                    <a href="index.html">Return to Fun Cat Page homepage</a> 
-                </p>
-            </nav>
+        <footer class="mt-5 text-center">
+            <p>Return to homepage</p>
+            <a href="index.html" class="btn btn-primary">Return to Fun Cat Page homepage</a> 
         </footer>
-
-    </body>
+    </div>
+</body>
 </html>
 

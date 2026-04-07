@@ -9,56 +9,51 @@
 </head>
 
 <body>
+    <div class="container mt-4">
     <!-- Header section: contains the main title and intro text for the page -->
-    <header>
+    <header class="text-center mb-4">
         <h1>Welcome to the Fun Cat Page</h1>
         <p>Learn some fun facts about cats!</p>
     </header>
 
     <!-- Main content area -->
     <main>
-        <!-- Flexbox wrapper: arranges the two sections side by side on larger screens -->
-        <div id="sections-wrapper">
-            <!-- Favorite Breeds Section -->
-            <section id="favorite-breeds">
-                <h2>My Favorite Cat Breeds</h2>
-                <p class="subheader">Some of my favorite cats include:</p>
-                <ul>
-                    <li>Persian Cats</li>
-                    <li>Maine Coon Cats</li>
-                    <li>Siamese Cats</li>
-                </ul>
-            </section>
+            <div class="row">
+                <!-- Favorite Breeds Section -->
+                <section id="favorite-breeds" class="col-md-6">
+                    <h2>My Favorite Cat Breeds</h2>
+                    <ul>
+                        <li>Persian Cats</li>
+                        <li>Maine Coon Cats</li>
+                        <li>Siamese Cats</li>
+                    </ul>
+                </section>
 
-            <!-- Cat Activities Section -->
-            <section id="cat-activities">
-                <h2>Cat Activities</h2>
-                <p>Cats love to engage in various activities to keep themselves entertained. Some popular cat activities include:</p>
-                <ol>
-                    <li>Chasing toys</li>
-                    <li>Sleeping</li>
-                    <li>Climbing cat trees</li>
-                </ol>
 
-                <!-- Image of a cute cat -->
-                <img src="images/CuteCat2.png"
-                     alt="A cute orange cat outside among flowers and leaves with doodles around it"
-                     width="500" 
-                     height="300">
+                <!-- Cat Activities Section -->
+                <section id="cat-activities" class="col-md-6 mb-4">
+                    <h2>Cat Activities</h2>
+                    <ol>
+                        <li>Chasing toys</li>
+                        <li>Sleeping</li>
+                        <li>Climbing cat trees</li>
+                    </ol>
 
-            </section>
-        </div>
-    </main>
 
-    <!-- Footer section: navigation to the next page with more cat content -->
-    <footer>
-        <p>Learn More About Cats!</p>
-        <nav>
-            <p class="button">
-                <a href="page2.html">Learn more fun cat facts on Page 2</a>
-            </p>
-        </nav>
-    </footer>
+                    <!-- Image of a cute cat -->
+                    <img src="images/CuteCat2.png"
+                        alt="A cute orange cat outside among flowers and leaves with doodles around it"
+                        class="img-fluid">
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer section: navigation to the next page with more cat content -->
+        <footer class="mt-5 text-center">
+            <p>Learn More About Cats!</p>
+            <a href="page2.html" class="btn btn-primary">Learn more fun cat facts on Page 2</a>
+        </footer>
+    </div>
 </body>
 </html>
 
