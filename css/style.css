@@ -5,15 +5,15 @@
 } */
 
 
-/* Main title */
 h1 {
+    font-family: 'poppins', sans-serif;
     color: black;
-    font-size: 30px;
+    font-size: 32px;
     /* text-align: center; */
 }
 
-/* Section titles */
 h2 {
+    font-family: 'poppins', sans-serif;
     color: black;
     font-size: 24px;
     /* text-align: center; */
@@ -22,7 +22,7 @@ h2 {
 /* Body */
 body {
     background-color: mistyrose;
-    font-family: Arial, sans-serif;
+    font-family: 'poppins', sans-serif;
     /* text-align: center; */
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ body {
 /* Paragraphs */
 p {
     color: black;
-    font-size: 16px;
+    line-height: 1.5;
     /* text-align: center; */
 }
 
@@ -39,6 +39,7 @@ p {
 img {
     /* width: 50%; */
     border-radius: 8px;
+    border: 2px solid black;
     /* display: block; */
     /* margin: auto; */
 }
@@ -52,17 +53,18 @@ img {
 }
 
 /* Button */
-.button {
-    background-color: mistyrose;
+a.btn-primary{
+    background-color: pink;
     color: black;
-    font-size: 15px;
-    display: inline-block;
-    text-align: center;
+    border: 1px solid black;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
 }
 
 /* Button hover */
-.button:hover {
+a.btn-primary:hover {
     background-color: mistyrose;
+    color: black
 }
 
 /* Sections */
@@ -71,8 +73,10 @@ img {
 #interesting-facts,
 #care-tips {
     background-color: mistyrose;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 /* Flexbox container for sections */
